@@ -171,7 +171,7 @@ public class Appt{
 			this.valid = false;
 		else if (startHour < 0 || startHour > 23)
 			this.valid = false;
-		else if (startMinute < 0 || startMinute > 59)
+		else if (startMinute < 0 || startMinute > 60)
 			this.valid = false;
 		else if (startYear <= 0)
 			this.valid = false;
@@ -377,7 +377,7 @@ public class Appt{
 		if (!getValid()) {
 		    System.err.println("\tThis appointment is not valid");
 		}
-         String day= this.getStartMonth()+"/"+this.getStartDay()+"/"+this.getStartYear() + " at ";
+         String day= this.getStartMonth()+"/"+this.getStartDay()+"/"+this.getStartYear() + "";
         return "\t"+ day +  this.represntationApp()  + " ," +  getTitle()+ ", "+  getDescription()+"\n";
     }
 

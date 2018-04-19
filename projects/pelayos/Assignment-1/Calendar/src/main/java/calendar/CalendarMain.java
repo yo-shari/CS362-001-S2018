@@ -46,7 +46,7 @@ public class CalendarMain {
 
 		
 		 int startHour=15;
-		 int startMinute=30;
+		 int startMinute=60;
 		 int startDay=thisDay;  	
 		 int startMonth=thisMonth+1; 	
 		 int startYear=thisYear; 	

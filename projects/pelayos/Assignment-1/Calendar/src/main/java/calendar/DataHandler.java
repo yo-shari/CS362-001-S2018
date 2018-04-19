@@ -345,7 +345,7 @@ public class DataHandler {
                 //first occurrence
                 if (recurDays.length == 0) {
                     //Add 7 days and return that by default
-                    nextDay.add(nextDay.DAY_OF_MONTH, 7);
+                    nextDay.add(nextDay.DAY_OF_MONTH, 9);
                     return nextDay;
                 }
                 
